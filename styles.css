@@ -1,0 +1,104 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url("./images/navy-opaque.png") no-repeat center;
+}
+
+.container {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.third-width {
+    align-content: flex-start;
+    align-items: center;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33%;
+}
+
+.text {
+width: 95%;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 0 10px;
+    text-align: center
+}
+
+hr {
+    background-color: black;
+    height: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 425px;
+}
+
+/****** Front Fold ******/
+.front-fold .text {
+    margin-bottom: 140px;
+}
+
+.front-fold .bottom-img {
+    padding-bottom: 120px;
+}
+
+/****** Middle Fold ******/
+.middle-fold {
+    border-left: black solid 10px;
+    border-right: black solid 10px;
+}
+
+.middle-fold img {
+    padding-top: 40px;
+}
+
+.middle-fold a:hover {
+    color: chocolate;
+}
+
+/****** Back Fold ******/
+.back-fold .text {
+    margin: 150px 0 100px 0;
+    text-align: center;
+}
+
+.back-fold a {
+    font-size: 30px;
+}
+
+.back-fold a:hover {
+    color: chocolate;
+}
+
+.back-fold p {
+    font-size: 40px;
+}
+
